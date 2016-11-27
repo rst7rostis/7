@@ -1,0 +1,159 @@
+div {
+	width: 80%;
+}
+h1, h2{
+	clear: both;
+}
+span{
+	clear: both;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	
+}
+input[type="text"]{
+	width: 250px;
+}
+input[name="auction_date"]{
+	width: 100px;
+}
+
+textarea{
+	width: 250px;
+}
+select{
+	width: 250px;
+}
+select[name="atime"]{
+	width: 50px;
+}
+select[name="amins"]{
+	width: 50px;
+}
+.wrapper{
+	width: 100%;
+}
+.fail{
+	width: 50%;
+	position: relative;
+	background: #FAF0D2;
+	font-size: 8pt;
+	float: right;
+	border: 1px dotted red;
+	clear: both;
+}
+
+.ip{
+	
+}
+.nstitle{
+	width: 300px;
+}
+.luck{
+	position: relative;
+	width: 50%;
+	background: #EAFAE8;
+	font-size: 9pt;
+	float: left;
+	border: 1px dotted grey;
+	clear: both;
+	
+}
+.commonstat{
+	clear: both;
+}
+.change_inf{
+	position: absolute;
+	width: 50px;
+	top: 85%;
+	right: 5%;
+	clear: none;
+	z-index: 2;
+}
+
+.manager{
+	/**/
+	position: absolute;
+	width: 90px;
+	top: 1%;
+	right: 5%;
+	clear: both;
+}
+.in_progress{
+	color: green;
+}
+.auction{
+	color: red;
+	font-size: 8pt;
+}
+.xs{
+	font-size: 8pt;
+}
+#current_trades{
+	min-width: 400px;
+	max-width: 500px;
+	width: 500px;
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
+#tender_add{
+	display: none;
+}
+#create_report{
+	width: 300px;
+	display: none;
+	border: 1px dotted green;
+	clear: both;
+}
+#create_report span{
+	clear: none;
+}
+.show_panel{
+	width: 200px;
+}
+td a{
+	font-size: 8pt;
+}
+.ten_search{
+	width: 300px;
+	display: none;
+	border: 1px dotted green;
+	clear: both;
+}
+.main_panel{
+	position: relative;
+}
+.hide_show_button{
+	top: 200px;
+	left: 280px;
+	position: absolute;
+	width: 160px;
+	height: 20px;
+	background: #ffd;
+	text-decoration: underline;
+	border: 1px dotted grey;
+}
+/*.slimScrollDiv{
+	min-width: 400px   !important;
+	max-width: 400px   !important;
+	width: 400px       !important;
+	position: absolute !important;
+	top: 0px           !important;
+	right: 10px        !important;
+	overflow: visible  !important;
+}
+.current_trades_data{
+	width: 400px       !important;
+	position: relative;
+	clear: both;
+}
+.current_trades_data_bottom{
+	position: absolute;
+	top: 450px;
+	z-index: 100;
+}
+.tenderfail{
+	text-decoration: line-through;
+}*/
